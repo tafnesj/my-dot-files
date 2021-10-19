@@ -1,0 +1,180 @@
+{
+  "editor.autoClosingBrackets": "always",
+  "terminal.integrated.shell.linux": "/usr/bin/zsh",
+  "editor.fontWeight": "400",
+  "editor.fontLigatures": true,
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features",
+    "editor.formatOnSave": true
+  },
+  "workbench.colorCustomizations": {
+    "terminal.ansiBlue": "#9b0aa8",
+    "terminal.ansiMagenta": "#50b6d0",
+    "terminal.ansiYellow": "#4f4f5028",
+    "terminal.ansiBlack": "#fff",
+    "terminal.ansiGreen": "#0c86a5",
+    "terminal.ansiPink": "#dfdc25",
+    "terminal.ansiBrightYellow": "#50b6d0",
+    "activityBar.foreground": "#179da7",
+    "activityBarBadge.background": "#9b0aa8",
+    "activityBarBadge.foreground": "#fff",
+    "statusBar.background": "#03032b",
+    "statusBar.foreground": "#fff",
+    "sideBar.foreground": "#fff",
+    "editorCursor.foreground": "#14d9e0",
+    "scrollbarSlider.background": "#9b0aa88e"
+  },
+  "emmet.includeLanguages": {
+    "vue-html": "html",
+    "javascript": "javascriptreact",
+    "typescriptreact": "javascriptreact",
+    "php": "html",
+    "twig": "html",
+    "twig-language-2": "html"
+  },
+  "editor.tokenColorCustomizations": {
+    "functions": "#f7dfac",
+    "numbers": "#fff",
+    "variables": "#c1f076",
+    "keywords": "#0cd9e0",
+    "comments": "#adafade8",
+    "textMateRules": [
+      {
+        "name": "functions cursive",
+        "scope": [
+          "support.constant.math",
+          "support.class.builtin.js",
+          "support.variable.dom.js",
+          "entity.name",
+          "entity.name.type.js",
+          "entity.name.type.class.js",
+          "support.function.magic.python",
+          "entity.other.attribute-name.html"
+        ],
+        "settings": {
+          "foreground": "#882ba5",
+          "fontStyle": "italic"
+        }
+      },
+      {
+        "name": "blue cursive",
+        "scope": [
+          "support.constant.math",
+          "support.class.builtin.js",
+          "support.variable.dom.js",
+          "entity.name",
+          "entity.name.type.js",
+          "entity.name.type.class.js",
+          "support.function.magic.python",
+          "entity.other.attribute-name.html"
+        ],
+        "settings": {
+          "foreground": "#882ba5",
+          "fontStyle": "italic"
+        }
+      },
+      {
+        "name": "Purple cursive",
+        "scope": [
+          "entity.other.attribute-name",
+          "entity.other.attribute-name.js.jsx"
+        ],
+        "settings": {
+          "foreground": "#fff",
+          "fontStyle": "italic"
+        }
+      }
+    ]
+  },
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  },
+  "[scss]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "C_Cpp.updateChannel": "Insiders",
+  "editor.mouseWheelZoom": true,
+  "explorer.confirmDragAndDrop": false,
+  "editor.cursorBlinking": "phase",
+  "editor.renderWhitespace": "boundary",
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "workbench.editorAssociations": {
+    "*.pdf": "default",
+    "*.ipynb": "jupyter.notebook.ipynb"
+  },
+  "launch": {
+    "configurations": [],
+    "compounds": []
+  },
+  "editor.suggestSelection": "first",
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "screencastMode.fontSize": 55,
+  "terminal.integrated.fontFamily": "MesloLGS NF",
+  "screencastMode.mouseIndicatorColor": "#66E336",
+  "liveshare.authenticationProvider": "GitHub",
+  "editor.tabSize": 2,
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+},
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "liveServer.settings.donotShowInfoMsg": true,
+  "git.enableSmartCommit": true,
+  "[latex]": {
+    "editor.defaultFormatter": "nickfode.latex-formatter"
+  },
+  "workbench.colorTheme": "1984",
+  "editor.fontFamily": "Fira Code iScript",
+  "security.workspace.trust.untrustedFiles": "open",
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact"
+  ],
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "workbench.iconTheme": "material-icon-theme",
+  "terminal.integrated.defaultProfile.windows": "Ubuntu-20.04 (WSL)",
+  "terminal.integrated.profiles.windows": {
+    "PowerShell": {
+      "source": "PowerShell",
+      "icon": "terminal-powershell"
+    },
+    "Command Prompt": {
+      "path": [
+        "${env:windir}\\Sysnative\\cmd.exe",
+        "${env:windir}\\System32\\cmd.exe"
+      ],
+      "args": [],
+      "icon": "terminal-cmd"
+    },
+    "Git Bash": {
+      "source": "Git Bash"
+    },
+    "Ubuntu-20.04 (WSL)": {
+      "path": "C:\\WINDOWS\\System32\\wsl.exe",
+      "args": [
+        "-d",
+        "Ubuntu-20.04"
+      ]
+    },
+    "Ubuntu-20.04 (WSL) (migrated)": {
+      "path": "Ubuntu-20.04 (WSL)",
+      "args": []
+    }
+  },
+  "terminal.integrated.automationShell.linux": "",
+  "window.zoomLevel": 1,
+  "terminal.explorerKind": "external"
+}
