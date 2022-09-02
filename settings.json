@@ -116,13 +116,12 @@
   "editor.suggestSelection": "first",
   "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
   "screencastMode.fontSize": 55,
-  "terminal.integrated.fontFamily": "MesloLGS NF",
+  "terminal.integrated.fontFamily": "MesloLGM Nerd Font",
   "screencastMode.mouseIndicatorColor": "#66E336",
   "liveshare.authenticationProvider": "GitHub",
-  "editor.tabSize": 2,
   "[javascriptreact]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-},
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
   "[json]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
@@ -133,7 +132,7 @@
     "editor.defaultFormatter": "nickfode.latex-formatter"
   },
   "workbench.colorTheme": "1984",
-  "editor.fontFamily": "Fira Code iScript",
+  "editor.fontFamily": "Victor Mono",
   "security.workspace.trust.untrustedFiles": "open",
   "eslint.validate": [
     "javascript",
@@ -145,7 +144,7 @@
     "editor.defaultFormatter": "vscode.typescript-language-features"
   },
   "workbench.iconTheme": "material-icon-theme",
-  "terminal.integrated.defaultProfile.windows": "Ubuntu-20.04 (WSL)",
+  "terminal.integrated.defaultProfile.windows": "Windows PowerShell2",
   "terminal.integrated.profiles.windows": {
     "PowerShell": {
       "source": "PowerShell",
@@ -172,9 +171,22 @@
     "Ubuntu-20.04 (WSL) (migrated)": {
       "path": "Ubuntu-20.04 (WSL)",
       "args": []
+    },
+    "Windows PowerShell": {
+      "path": "C:\\windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe"
+    },
+    "Windows PowerShell2": {
+      "path": "C:\\windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe"
     }
   },
   "terminal.integrated.automationShell.linux": "",
+  "terminal.explorerKind": "external",
   "window.zoomLevel": 1,
-  "terminal.explorerKind": "external"
+  "[markdown]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "files.exclude": {
+    "**/.git": false
+  },
+  "terminal.external.windowsExec": "C:\\windows\\System32\\powershell.exe"
 }
