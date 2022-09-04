@@ -1,0 +1,112 @@
+{
+  "$schema": "https://raw.githubusercontent.com/JanDeDobbeleer/oh-my-posh/main/themes/schema.json",
+  "blocks": [
+    {
+      "alignment": "right",
+      "segments": [
+        {
+          "background": "#29315A",
+          "foreground": "#7C62DE",
+          "style": "diamond",
+          "template": "\u2800\ue5ff ",
+          "leading_diamond": "\ue0b6",
+          "type": "text"
+        },
+        {
+          "background": "#29315A",
+          "foreground": "#FFFFFF",
+          "trailing_diamond": "\ue0b4",
+          "properties": {
+            "style": "folder"
+          },
+          "style": "diamond",
+          "template": "{{ .Path }} ",
+          "type": "path"
+        },
+        {
+          "background": "#29315A",
+          "foreground": "#ee79d1",
+          "leading_diamond": "\u2800\ue0b6",
+          "properties": {
+            "fetch_stash_count": true,
+            "fetch_status": true,
+            "fetch_upstream_icon": true,
+            "fetch_worktree_count": true
+          },
+          "style": "diamond",
+          "template": " {{ .UpstreamIcon }}\ue725",
+          "type": "git"
+        },
+        {
+          "background": "#29315A",
+          "foreground": "#FFFFFF",
+          "properties": {
+            "branch_icon": ""
+          },
+          "style": "diamond",
+          "template": " {{ .HEAD }} ",
+          "trailing_diamond": "\ue0b4",
+          "type": "git"
+        },
+        {
+          "background": "#29315A",
+          "foreground": "#FFFFFF",
+          "leading_diamond": "\u2800\ue0b6",
+          "properties": {
+            "time_format": "15:04"
+          },
+          "style": "diamond",
+          "template": " {{ .CurrentDate | date .Format }} ",
+          "type": "time"
+        },
+        {
+          "background": "#29315A",
+          "foreground": "#15C2CB",
+          "style": "diamond",
+          "template": "\uf7d4 ",
+          "trailing_diamond": "\ue0b4",
+          "type": "text"
+        }
+      ],
+      "type": "prompt"
+    },
+    {
+      "alignment": "left",
+      "newline": true,
+      "segments": [
+        {
+          "background": "#29315A",
+          "foreground": "#AEA4BF",
+          "leading_diamond": "\ue0b6",
+          "properties": {
+            "style": "austin",
+            "threshold": 150
+          },
+          "style": "diamond",
+          "template": "{{ .FormattedMs }}",
+          "trailing_diamond": "\ue0b4 ",
+          "type": "executiontime"
+        },
+        {
+          "background": "#29315A",
+          "foreground": "#FFFFFF",
+          "leading_diamond": "\ue0b6",
+          "style": "diamond",
+          "template": " {{ .UserName }} ",
+          "type": "session"
+        },
+        {
+          "background": "#29315A",
+          "foreground": "#15C2CB",
+          "style": "diamond",
+          "template": "\u276f",
+          "trailing_diamond": "\ue0b4",
+          "type": "text"
+        }
+      ],
+      "type": "prompt"
+    }
+  ],
+  "final_space": true,
+  "version": 2
+}
